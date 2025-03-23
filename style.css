@@ -1,19 +1,40 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+    
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 header, footer {
-    background-color: #35e944;
-    color: white;
-    padding: 15px;
+    background-color: #4dbb56;
+    color: rgb(7, 7, 7);
+    padding: 5px;
+
 }
-main {
-    padding: 20px;
+
+.post1 {
+    background-color: #e2ffb2;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 img {
     width: 80%;
     max-width: 600px;
     border-radius: 10px;
+}
+
+nav {
+    background-color: #e2ffb2;
+}
+
+li {
+    list-style: none;
+    font-size: xx-small;
+}
+
+h2 {
+    padding-top: 10px;
 }
